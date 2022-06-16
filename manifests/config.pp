@@ -25,6 +25,7 @@ class munki::config {
   $show_optional_installs_for_higher_os_versions = $munki::show_optional_installs_for_higher_os_versions
   $local_only_manifest_name                      = $munki::local_only_manifest_name
   $manage_profile                                = $munki::manage_profile
+  $profile_install_method                        = $munki::profile_install_method
 
   $mcx_settings = {
     'AdditionalHttpHeaders' => $additional_http_headers,
