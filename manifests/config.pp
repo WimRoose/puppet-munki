@@ -114,6 +114,7 @@ class munki::config {
       ensure      => present,
       file_source => plist($profile),
       type        => 'template',
+      method      => $profile_install_method,
     }
   }
 
